@@ -1,0 +1,360 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HaberBlog</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <marquee width="100%" direction="left" height="20px">
+            <a href="https://www.bilimavcisi.com/post/mars-rover-k%C4%B1z%C4%B1l-gezegende-zay%C4%B1f-su-sinyalleri-ke%C5%9Ffetti" target="_blank" class="mx-3">"Mars Rover, Kırmızı Gezegen'de Su Varlığını Kesinleştirdi!"   </a>
+            <span><i class="fa-solid fa-book" style="width: 8px;"></i></span>
+            <a href="https://www.trthaber.com/haber/dunya/bilim-insanlari-evrenin-bilinen-en-buyuk-kara-deligini-kesfetti-688244.html" target="_blank" class="mx-3">"Bilim İnsanları, Evrenin En Büyük Siyah Deliğini Keşfetti!"</a>
+            <span><i class="fa-solid fa-book" style="width: 8px;"></i></span>
+            <a href="https://www.ktu.edu.tr/med/haber/yapay-zeka-ile-ilac-kesfi-konulu-proje-dunyada-ses-getirdi" target="_blank" class="mx-3">"Yapay Zeka, Tıp Alanında Yeni Bir İlacı Keşfetti!"</a>
+            <span><i class="fa-solid fa-book" style="width: 8px;"></i></span>
+            <a href="https://www.voaturkce.com/a/dunyanin-ilk-uzay-turisti-ay-seyahati-icin-yer-ayirtti/6786794.html" target="_blank" class="mx-3">"Uzay Turizmi Hızla Büyüyor: İlk Kez Bir Turist Ay'a Gitmeye Hazırlanıyor!"</a>   
+            <span><i class="fa-solid fa-book" style="width: 8px;"></i></span>
+            <a href="https://www.youtube.com/watch?v=1syWpTJbKnw" target="_blank" class="mx-3">"Dünya'nın En Yüksek Binası Tamamlandı: Gökyüzüne Uzanan Devasa Bir Başyapıt!"</a>
+            </marquee>
+            <!-- BURADA KAYAN YAZI VAR  -->
+        <nav class="navbar navbar-expand-lg  " style="background-color: #132239" >
+            <a class="navbar-brand " href="index.html">HaberPortalı</a>
+            <button class="navbar-toggler "   type="button" data-toggle="collapse" data-target="#navbarNavDropdown"
+                aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation ">
+                <!-- <span class="navbar-toggler-icon bg-light" id="icon-navbar"></span>ikon değiştirildiği için yoruma bırakıldı. -->
+                <span><i class="fa-solid fa-bars" style="color: aliceblue; font-size:x-large;" id="icon-navbar"></i></span>
+
+            </button>
+            <div class="collapse navbar-collapse justify-content-end  " id="navbarNavDropdown">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="index.html">Anasayfa <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#sondakika">Son Dakika Haberleri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#spor">Spor Haberleri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#saglık">Sağlık Haberleri</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teknoloji">Teknoloji Haberleri</a>
+                    </li>
+                    <li class="nav-item dropdown ">
+                        <a class="nav-link dropdown-toggle  " href="#" role="button" data-toggle="dropdown"
+                            aria-expanded="false">
+                            Kayıt Ol/Giriş Yap
+                        </a>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item  "  href="#kayıtformu">Kayıt Ol</a>
+                            <a class="dropdown-item"  href="kullanıcıgirisi.html">Giriş Yap</a>
+
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+        <!-- navbarbitiş -->
+        <!-- anasayfa başlangıç -->
+        <div class="row">
+
+            <div class="col-md-6 my-5">
+                <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
+                    <ol class="carousel-indicators" >
+                        <li data-target="#carouselExampleFade" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="2"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="3"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="4"></li>
+                        <li data-target="#carouselExampleFade" data-slide-to="5"></li>
+                      </ol>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block w-100" src="photo/slider/haber-1.jpg" alt="First slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="photo/slider/haber-2.jpg" alt="Second slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="photo/slider/haber-3.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="photo/slider/haber-4.png" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="photo/slider/haber-5.jpg" alt="Third slide">
+                        </div>
+                        <div class="carousel-item">
+                            <img class="d-block w-100" src="photo/slider/haber-6.jpg" alt="Third slide">
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleFade" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleFade" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+
+                </div>
+            </div>
+            <!-- slider sağdaki 2 kart -->
+            <div class="col-md-6 d-flex">
+                <div class="card" style="width: 50%;">
+                    <img src="photo/card-pictures/yapayzeka1.jpg" class="card-img-top" alt="..." style="width: 246px; height: 138px;">
+                    <span class="sondakika">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Yapay Zeka</h5>
+                        <p class="card-text">Instagram için yapay zeka ile yazma özelliği geliyor...</p>
+                        <a href="https://www.haberler.com/teknoloji/instagram-icin-yapay-zeka-ile-yazma-ozelligi-geliyor-16834137-haberi/" class="btn btn-primary" target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+
+                <div class="card" style="width: 50%;">
+                    <img src="photo/card-pictures/doğahaber1.jpg" class="card-img-top" alt="..." style="width: 246px; height: 138px;">
+                    <span class="sondakika">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Nesli Tehlikede!</h5>
+                        <p class="card-text">Besin yelpazesi oldukça geniş olan boz ...</p>
+                        <a href="https://www.bugunkocaeli.com.tr/haber/7209048/nesli-tehlikede-o-tur-tarim-arazilerine-girdigi-icin-olduruluyor" class="btn btn-primary" target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- birinci satır -->
+        <span id="spor" class="span1 ">SON DAKİKA SPOR HABERLERİ</span>
+        <div class="row my-5" id="two">
+            <div class="col-md d-flex flex-wrap">
+                <div class="card">
+                    <img src="photo/card-pictures/spor1.jpg" class="card-img-top" alt="...">
+                    <span class="spor">Spor Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Galatasaray</h5>
+                        <p class="card-text">Galatasaray'a stoperlerinden 11 gol katkısı...</p>
+                        <a href="https://www.ensonhaber.com/kralspor/futbol/galatasaraya-stoperlerinden-11-gol-katkisi#:~:text=Galatasaray'%C4%B1n%20ligde%20en%20az,ba%C5%9F%C4%B1ndan%20beri%2011%20gol%20kaydetti." class="btn btn-primary"  target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/spor2.jpg" class="card-img-top" alt="...">
+                    <span class="spor">Spor Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Icardi</h5>
+                        <p class="card-text">Mauro Icardi, MKE Ankaragücü-Galatasaray mü..</p>
+                        <a href="https://www.ntv.com.tr/sporskor/icardi-pfdkya-sevk-edildi,0TpIByB8wkCb9nbqtIpHUg" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/spor3.jpg" class="card-img-top" alt="...">
+                    <span class="spor">Spor Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Preciado hamlesi!</h5>
+                        <p class="card-text">Nevzat Dindar duyurdu: Listenin ilk sırasında...</p>
+                        <a href="https://www.milliyet.com.tr/skorer/son-dakika-haberi-galatasaraydan-preciado-hamlesi-nevzat-dindar-duyurdu-listenin-ilk-sirasinda-7082998" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/spor4.jpg"style="width: 246px; height: 138px;" class="card-img-top" alt="...">
+                    <span class="spor">Spor Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Hamza Akman</h5>
+                        <p class="card-text">Sezon sonunda bitecek sözleşmesini uzatma...</p>
+                        <a href="https://www.sabah.com.tr/spor/futbol/2024/02/21/son-dakika-haberi-hamza-akmandan-flas-galatasaray-karari" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- ikinci satır -->
+
+        <span id="sondakika" class="span1 ">SON DAKİKA SICAK HABERLER</span>
+        <div class="row my-5" id="two">
+            <div class="col-md d-flex flex-wrap">
+                <div class="card">
+                    <img src="photo/card-pictures/sıcak1.webp" class="card-img-top" alt="...">
+                    <span class="sondakika">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Kim Jong</h5>
+                        <p class="card-text">Kuzey Kore'nin gizli liderinden ürküten sözler!</p>
+                        <a href="https://www.hurriyet.com.tr/galeri-son-dakika-haberler-kuzey-korenin-gizli-lideri-ortaya-cikti-bedelini-odeyecek-41684132/4" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/sıcak2.webp" style="width: 246px; height: 139px;" class="card-img-top" alt="...">
+                    <span class="sondakika">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">İspanya</h5>
+                        <p class="card-text">Valencia kentindeki Campanar Mahallesi'nde...</p>
+                        <a href="https://www.sabah.com.tr/galeri/dunya/ispanyada-facia-14-katli-apartman-cayir-cayir-yandi-korkutan-aciklama-geldi" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/sıcak3.webp" class="card-img-top" alt="..." style="width: 246px; height: 139px;">
+                    <span class="sondakika">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Bakan Fidan</h5>
+                        <p class="card-text">Dışişleri Bakanı Fidan, Brezilya Dışişleri...</p>
+                        <a href="https://www.sabah.com.tr/dunya/disisleri-bakani-fidan-brezilya-disisleri-bakani-vieira-ile-gorustu-6837786" class="btn btn-primary"target="_blank" >Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/sıcak4.webp" class="card-img-top" alt="..." style="width: 246px; height: 139px;">
+                    <span class="sondakika">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Joe Biden</h5>
+                        <p class="card-text">İtalya Başbakanı Meloni'yi konuk edecek.</p>
+                        <a href="https://www.sabah.com.tr/dunya/joe-biden-italya-basbakani-meloniyi-konuk-edecek-6838308" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- üçüncü satır -->
+        <span id="saglık" class="span1 ">SON DAKİKA  SAĞLIK HABERLERİ</span>
+        <div class="row my-5" id="two">
+            <div class="col-md d-flex flex-wrap">
+                <div class="card">
+                    <img src="photo/card-pictures/sağlık1.webp" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="saglık">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Ağrı kesici</h5>
+                        <p class="card-text">Vücudun her zerresini onarıyor! İlaçları...</p>
+                        <a href="https://www.sabah.com.tr/galeri/saglik/vucudun-her-zerresini-onariyor-ilaclari-cope-attiran-o-besin-dogal-agri-kesici" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/sağlık2.webp" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="saglık">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Katarakt</h5>
+                        <p class="card-text">Katarakt ihmale gelmiyor! Tek çaresi...</p>
+                        <a href="https://www.sabah.com.tr/saglik/2024/02/23/katarakt-ihmale-gelmiyor-tek-caresi" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/sağlık3.webp" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="saglık">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">"Yaşaması zor"</h5>
+                        <p class="card-text">Anne karnında öyle bir işlem yapıldı ki!</p>
+                        <a href="https://www.sabah.com.tr/galeri/saglik/yasamasi-zor-demislerdi-hayata-tutunsun-diye-anne-karninda-oyle-bir-islem-yapildi-ki-kaybettigim-3-bebekten-sonra-mucize-gibi" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/sağlık4.webp" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="saglık">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Kolesterol</h5>
+                        <p class="card-text">Her gün 2 kaşık yemeklerinize ekleyin!</p>
+                        <a href="https://www.sabah.com.tr/galeri/saglik/her-gun-2-kasik-yemeklerinize-ekleyin-kolesterol-sorununu-ortadan-kaldiriyor" class="btn btn-primary"target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- dördüncu satır -->
+        <span id="teknoloji" class="span1 ">SON DAKİKA TEKNOLOJİ HABERLERİ</span>
+        <div class="row my-5" id="two">
+            <div class="col-md d-flex flex-wrap">
+                <div class="card">
+                    <img src="photo/card-pictures/teknoloji1.webp" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="teknoloji">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Lenovo</h5>
+                        <p class="card-text">Yeni oyun bilgisayarı Legion Y9000 sürümü...</p>
+                        <a href="https://www.teknolojioku.com/bilgisayar/lenovo-legion-y9000k-satisa-sunuldu-65d8561f9a8d10d7ed01d2e0" class="btn btn-primary" target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/teknoloji2.webp" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="teknoloji">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Razer</h5>
+                        <p class="card-text">Razer BlackShark V2 HyperSpeed Beyaz Sürümü...</p>
+                        <a href="https://www.teknolojioku.com/donanim/razer-blackshark-v2-hyperspeed-beyaz-surumu-satisa-sunuldu-65d853b3e5d6c8626a064ecb" class="btn btn-primary" target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/teknoloji3.jpg" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="teknoloji">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Gemini</h5>
+                        <p class="card-text">Gemini'nin insan resimleri oluşturma özelliğini askıya...</p>
+                        <a href="https://medyabar.com/haber/19339309/google-gemininin-insan-resimleri-olusturma-ozelligini-askiya-aldi" class="btn btn-primary" target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="photo/card-pictures/teknoloji4.jpg" class="card-img-top" alt="..."style="width: 246px; height: 139px;">
+                    <span class="teknoloji">Son Dakika Haberleri</span>
+                    <div class="card-body">
+                        <h5 class="card-title">Bataryaların ısınması</h5>
+                        <p class="card-text">Batarya ısınması ve yanmasına çare buldular.</p>
+                        <a href="https://www.sabah.com.tr/teknoloji/2015/04/15/batarya-isinmasi-ve-yanmasina-care-buldular" class="btn btn-primary" target="_blank">Haberi Oku</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!-- anasayfa bitiş -->
+        <div class="container">
+            <form>
+                <div id="kayıtformu" class="p-3 mb-2 bg-dark text-white">ABONE OL</div>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email adresinizi Giriniz...</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Şifrenizi Giriniz...</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Şifrenizi Tekrar Giriniz...</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1">
+                </div>
+                <div class="form-group form-check">
+                    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                    <label class="form-check-label" for="exampleCheck1">Kontrol Et</label>
+                </div>
+                <button type="submit" class="btn btn-primary ">Kayıt Oluştur</button>
+                <button type="reset" class="btn btn-danger">Temizle</button>
+            </form>
+        </div>
+        
+        <a href="https://wa.me/05340136773" class="whatsapp_float" target="_blank">
+            <img src="photo/card-pictures/whatsap.png" alt="WhatsApp" style="width:50px;" title="WHATSAP">
+          </a>
+          <a href="https://t.me/05340136773" class="tme" target="_blank">
+            <img src="photo/card-pictures/telegram.png" alt="WhatsApp" style="width:40px;" title="TELEGRAM">
+          </a>
+          
+        <hr>
+        <!-- telif hakkı saklı bilgirgesi -->
+        <p style="font-size: 15px; text-align: center;">Telif Hakkı Bildirimi &copy; Ercansahin - Tüm hakları saklıdır.</p>
+        <a style="display:scroll;position:fixed; bottom: 180px; right: 22px;" href="#" title="BAŞA DÖN"><i class="fa-solid fa-angles-up"  style="font-size: 37px;" id="yukarıcık"></i></a>
+        
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
+        crossorigin="anonymous"></script>
+        <br><br><br>
+        
+
+
+
+
+</body>
+
+</html>

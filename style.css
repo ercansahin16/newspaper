@@ -1,0 +1,167 @@
+.navbar-brand {
+    letter-spacing: 2px;
+    
+}
+
+.navbar-brand::first-letter {
+    font-size: 25px;
+    
+}
+
+/* anasayfa başlangıç css */
+.carousel-item img {
+    height: 350px;
+}
+
+
+.card {
+    position: relative;
+    padding: 15px;
+    
+
+}
+
+.card .btn {
+    display: block;
+}
+
+.card .spor {
+    background-color: green;
+    position: absolute;
+    color: white;
+    padding: 2px;
+    font-weight: bolder;
+    right: 0;
+    /* kart altındaki yazıyı resminiçineişlemekiçinkullandığım koddur */
+}
+
+.card .sondakika {
+    background-color: red;
+    position: absolute;
+    color: white;
+    padding: 2px;
+    font-weight: bolder;
+    right: 0;
+    /* kart altındaki yazıyı resminiçineişlemekiçinkullandığım koddur */
+}
+.card .saglık {
+    background-color: rgb(226, 192, 38);
+    position: absolute;
+    color: white;
+    padding: 2px;
+    font-weight: bolder;
+    right: 0;
+}
+    /* kart altındaki yazıyı resminiçineişlemekiçinkullandığım koddur */
+    .card .teknoloji{
+        background-color:black;
+        position: absolute;
+        color: white;
+        padding: 2px;
+        font-weight: bolder;
+        right: 0;
+    }
+#two .card {
+    width: 25%;
+    /* tam sayfada 4adet kart görünmesini ve bunu <div class="col-md d-flex flex-wrap"> burada flex-wrap vererek, sabitledim. */
+}
+.card:hover{
+    transform: scale(1.03);
+    transition: 0.5s;
+    z-index: 1;
+    box-shadow: 15px 15px 8px gray ;
+    border-radius: 10px;
+    /* cartlarımın vurgu yapmasını,gölgelendirme , köşe radiuslama,kartların birbiri üzerine gelmemesini sağladım */
+}
+
+
+
+@media(max-width:768px) {
+    #two .card {
+        width: 100%;
+
+    }
+    .card:hover{
+        transform: none;
+        transition: none;
+        z-index: 1;
+        box-shadow: none ;
+        border-radius: 10px;
+    }
+    /* media özelliği  ile  telefon ayarnda responsive vererek kartlarımda oluşan transition ve  shadow  özelliklerini kapattım, çünkü telefonda kötü bir biçim alıyordu. */
+    
+    }
+    .span1{
+        box-shadow: 3px 3px 2px 2px grey;
+        border-radius: 8px;
+        display: block;
+        letter-spacing: 2px;
+        font-weight: bolder;
+        font-size: 25px;
+    }
+    .whatsapp_float {
+        position: fixed;
+        width: 60px; /* İkonunuzun genişliği */
+        height: 60px; /* İkonunuzun yüksekliği */
+        bottom: 100px; /* Alttan boşluk */
+        right: 15px; /* Sağdan boşluk */
+        /* background-color: #25d366; WhatsApp rengi, gerekirse ayarlayın */
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+      }
+      
+      .whatsapp_float img {
+        margin: 5px; /* İkonun içindeki resim için boşluk */
+        width: 100px; /* İkonun genişliği */
+        height: auto; /* Yükseklik, orantılı olarak ayarlanır */
+      }
+      .tme {
+        position: fixed;
+        width: 60px; /* İkonunuzun genişliği */
+        height: 60px; /* İkonunuzun yüksekliği */
+        bottom: 25px; /* Alttan boşluk */
+        right: 15px; /* Sağdan boşluk */
+        /* background-color: #25d366; WhatsApp rengi, gerekirse ayarlayın */
+        color: #FFF;
+        border-radius: 50px;
+        text-align: center;
+        font-size: 30px;
+        z-index: 100;
+      }
+      
+      .tme img {
+        margin: 5px; /* İkonun içindeki resim için boşluk */
+        width: 40px; /* İkonun genişliği */
+        height: auto; /* Yükseklik, orantılı olarak ayarlanır */
+      }
+      .tme:hover{
+        transform: scale(1.03);
+        transition: 0.5s;
+        z-index: 1;
+        box-shadow: 0px 5px 5px 2px gray ;
+        border-radius: 10px;
+      }
+      .whatsapp_float:hover{
+        transform: scale(1.03);
+        transition: 0.5s;
+        z-index: 1;
+        box-shadow: 0px 5px 5px 2px gray ;
+        border-radius: 10px;
+      }
+      i.fa {
+        color: #f00; /* Kırmızı */
+    }
+    #yukarıcık:hover{
+        transform: scale(1.03);
+        transition: 0.5s;
+        z-index: 1;
+        box-shadow: 0px 5px 5px 2px gray ;
+        border-radius: 10px;
+      }
+      #yukarıcık{
+        padding: 8px;
+        z-index: 5;
+      }
